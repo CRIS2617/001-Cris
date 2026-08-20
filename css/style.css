@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 p {
     color: rgb(12, 12, 12);
     
@@ -11,7 +15,6 @@ p {
 }
 
 .producto {
-    alingn: center;
     
     width: 30%;
     background-color: rgb(59, 235, 36);
@@ -19,10 +22,35 @@ p {
     text-align: center;
     padding: 10px;
     border-radius: 10px;
-
 }
 
 .mini-caja {
+    background-color: rgb(73, 218, 234);
+    color: rgb(11, 11, 11);
+    text-align: center;
+    padding: 5px;
+    border-radius: 0px;
+  
+}
+
+.mini-caja:hover{
+    background-color: rgb(234, 25, 43);
+    transform: translateY(-5px);
+    cursor: pointer;
+
+}
+
+.mini-caja2:hover{
+    background-color: rgb(234, 25, 43);
+    transform: translateY(-5px);
+    cursor: pointer;
+
+}
+
+
+
+
+.mini-caja2 {
     background-color: rgb(73, 218, 234);
     color: rgb(11, 11, 11);
     text-align: center;
@@ -38,7 +66,7 @@ p {
     color: rgb(11, 11, 11);
     text-align: center;
     padding: 5px;
-
+    width: 500px;
     gap: 10px;
 
 }
@@ -56,42 +84,56 @@ p {
 }
 
 .carrito{
-   flex: 1;
+    flex: 1;
     background-color: rgb(245, 234, 235);
     color: rgb(11, 11, 11);
     text-align: center;
     padding: 10px;
     border-radius: 10px;
-    flex: 0 0 250px;
+    
 
 }
 
 .contenedor {
     display: flex;
-   
     gap: 10px;
+    margin: 5px;
    
 }
 .caja-contenedor{
-    flex: auto;
+
     gap: 10px;
 }
 
+.foot{
+    background-color: rgb(255, 0, 0);
+}
 footer {
     background-color: rgb(34, 24, 229);
-    color: rgb(222, 246, 6);
     text-align: center;
-    padding: 100px;
-    
-    
+    padding: 10px;
+    margin: 0;
 }
 
 footer p {
     color: rgb(249, 250, 242);
+
 }
 
-.productos :hover{
+.producto:hover{
     background-color: rgb(234, 25, 43);
     transform: translateY(-5px);
 
 }
+
+section {
+    flex: 3;
+    margin: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+
+}
+
+
