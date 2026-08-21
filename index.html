@@ -1,187 +1,171 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>NOVATEC - Tecnología del Futuro</title>
+    <!-- Importamos una fuente futurista de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav>
+    <nav class="cyber-nav">
       <div class="super-caja">
         <div class="caja">
-       <h1 class="mini-caja">NOVATEC</h1>
+          <h1 class="mini-caja logo">NOVATEC<span>.SYS</span></h1>
+        </div>
+        <div class="caja nav-links">
+          <a class="mini-caja" href="index.html">Inicio</a>
+          <a class="mini-caja2" href="historia.html">Historia</a>
+        </div>
       </div>
-      <div class="caja">
-        <a class="mini-caja" style="flex: 5;" href="index.html">Inicio</a>
-        <a class="mini-caja2" style="flex: 2;" href="historia.html">Historia de mi empresa</a>
-        
-      </div>
-      </div>
-      
     </nav>
 
-   
-    
-
     <main class="contenedor">
+      <section class="productos-section">
+        <h1 class="titulo-principal">Catálogo de Productos Cuántico</h1>
 
-     <section >   
-      <h1>Mi pagina de Productos de Computacion</h1>
-
-      <h2>Pantallas</h2>
-      <div class="mini-contenedor">
-        <div class="producto">
-          <h3>Samsung</h3>
-          <p>Pantalla de la marca Samsung</p>
-          <img src="img/computadora.jpg" alt="una computadora" width="60px">
-          <span class="precio">S/750</span>
-          <button onclick="agregaCarrito('pantalla samsung', 750)">Agregar producto</button>
-        </div>
-        <div class="producto">
-          <h3>LG</h3>
-          <p>Pantalla de la marca LG</p>
-          <span class="precio">S/700</span>
-          <button onclick="agregaCarrito('pantalla lg', 700)">Agregar producto</button>
-        </div>
-        <div class="producto">
-          <h3>Acer</h3>
-          <p>Pantalla de la marca Acer</p>
-          <span class="precio">S/600</span>
-          <button onclick="agregaCarrito('pantalla acer', 600)">Agregar producto</button>
-        </div>
-        <div class="producto">
-          <h3>Asus</h3>
-          <p>Pantalla de la marca Asus</p>
-          <span class="precio">S/750</span>
-          <button onclick="agregaCarrito('pantalla asus', 750)">Agregar producto</button>
-        </div>
-      </div>
-
-
-      <div></div>
-      <h2>Memorias</h2>
-      <div class="mini-contenedor">
-        <div class="producto">
-          <h3>Disco Duro</h3>
-          <p>Disco duro de 1Tb</p>
-          <span class="precio">S/900</span>
-          <button onclick="agregaCarrito('disco duro', 900)">Agregar producto</button>
-        </div>
-        <div class="producto">
-          <h3>Diosco Solido</h3>
-          <p>Dusco solido de la marca Kington</p>
-          <span class="precio">S/800</span>
-          <button onclick="agregaCarrito('disco solido', 800)">Agregar producto</button>
-        </div>
-      </div>
-      <h1>Teclados</h1>
-
-      <div class="mini-contenedor">
-        <div class="producto">
-          <h3>Mecanico</h3>
-          <p>Teclado con switches de alta alta calidad</p>
-          <span class="precio">S/100</span>
-          <button onclick="agregaCarrito('teclado mecanico', 100)">Agregar producto</button>
+        <h2>Pantallas</h2>
+        <div class="mini-contenedor">
+          <div class="producto">
+            <h3>Samsung</h3>
+            <p>Pantalla de alta definición</p>
+            <span class="precio">S/750</span>
+            <button onclick="agregaCarrito('pantalla samsung', 750)">Agregar producto</button>
+          </div>
+          <div class="producto">
+            <h3>LG</h3>
+            <p>Pantalla de la marca LG</p>
+            <span class="precio">S/700</span>
+            <button onclick="agregaCarrito('pantalla lg', 700)">Agregar producto</button>
+          </div>
+          <div class="producto">
+            <h3>Acer</h3>
+            <p>Pantalla de la marca Acer</p>
+            <span class="precio">S/600</span>
+            <button onclick="agregaCarrito('pantalla acer', 600)">Agregar producto</button>
+          </div>
+          <div class="producto">
+            <h3>Asus</h3>
+            <p>Pantalla de la marca Asus</p>
+            <span class="precio">S/750</span>
+            <button onclick="agregaCarrito('pantalla asus', 750)">Agregar producto</button>
+          </div>
         </div>
 
-        <div class="producto">
-          <h3>Inalambrico</h3>
-          <p>Teclado con tecnologia bluetooth</p>
-          <span class="precio">S/150</span>
-          <button onclick="agregaCarrito('teclado inalambrico', 150)">Agregar producto</button>
+        <h2>Memorias</h2>
+        <div class="mini-contenedor">
+          <div class="producto">
+            <h3>Disco Duro</h3>
+            <p>Disco duro mecánico de 1Tb</p>
+            <span class="precio">S/900</span>
+            <button onclick="agregaCarrito('disco duro', 900)">Agregar producto</button>
+          </div>
+          <div class="producto">
+            <h3>Disco Sólido</h3>
+            <p>Disco sólido de la marca Kingston</p>
+            <span class="precio">S/800</span>
+            <button onclick="agregaCarrito('disco solido', 800)">Agregar producto</button>
+          </div>
         </div>
-        <div class="producto">
-          <h3>Membrana</h3>
-          <p>Teclado con membrana de alta durabilidad</p>
-          <span class="precio">S/200</span>
-          <button onclick="agregaCarrito('teclado membrana', 200)">Agregar producto</button>
-        </div>
-      </div>
 
-      <h1>Placa Madre</h1>
+        <h2>Teclados</h2>
+        <div class="mini-contenedor">
+          <div class="producto">
+            <h3>Mecánico</h3>
+            <p>Teclado con switches de alta calidad</p>
+            <span class="precio">S/100</span>
+            <button onclick="agregaCarrito('teclado mecanico', 100)">Agregar producto</button>
+          </div>
+          <div class="producto">
+            <h3>Inalámbrico</h3>
+            <p>Teclado con tecnología bluetooth</p>
+            <span class="precio">S/150</span>
+            <button onclick="agregaCarrito('teclado inalambrico', 150)">Agregar producto</button>
+          </div>
+          <div class="producto">
+            <h3>Membrana</h3>
+            <p>Teclado con membrana de alta durabilidad</p>
+            <span class="precio">S/200</span>
+            <button onclick="agregaCarrito('teclado membrana', 200)">Agregar producto</button>
+          </div>
+        </div>
 
-      <div class="mini-contenedor">
-        <div class="producto">
-          <h3>Asus</h3>
-          <p>Placa madre de la marca Asus</p>
-          <span class="precio">S/500</span>
-          <button onclick="agregaCarrito('placa madre asus', 500)">Agregar producto</button>
+        <h2>Placa Madre</h2>
+        <div class="mini-contenedor">
+          <div class="producto">
+            <h3>Asus</h3>
+            <p>Placa madre de la marca Asus</p>
+            <span class="precio">S/500</span>
+            <button onclick="agregaCarrito('placa madre asus', 500)">Agregar producto</button>
+          </div>
+          <div class="producto">
+            <h3>MSI</h3>
+            <p>Placa madre de la marca MSI</p>
+            <span class="precio">S/300</span>
+            <button onclick="agregaCarrito('placa madre msi', 300)">Agregar producto</button>
+          </div>
+          <div class="producto">
+            <h3>Gigabyte</h3>
+            <p>Placa madre con dos slots de Ram</p>
+            <span class="precio">S/400</span>
+            <button onclick="agregaCarrito('placa madre gigabyte', 400)">Agregar producto</button>
+          </div>
         </div>
-        <div class="producto">
-          <h3>MSI</h3>
-          <p>Placa madre de la marca MSI</p>
-          <span class="precio">S/300</span>
-          <button onclick="agregaCarrito('placa madre msi', 300)">Agregar producto</button>
-        </div>
-        <div class="producto">
-          <h3>Gigabyte</h3>
-          <p>Placa madre con dos slots de Ram</p>
-          <span class="precio">S/400</span>
-          <button onclick="agregaCarrito('placa madre gigabyte', 400)">Agregar producto</button>
-        </div>
-      </div>
 
-      <h1>Procesador</h1>
-
-      <div class="mini-contenedor">
-        <div class="producto">
-        <h3>AMD</h3>
-        <p>Procesador de la marca AMD</p>
-        <span class="precio">S/550</span>
-        <button onclick="agregaCarrito('procesador amd', 550)">Agregar producto</button>
+        <h2>Procesador</h2>
+        <div class="mini-contenedor">
+          <div class="producto">
+            <h3>AMD</h3>
+            <p>Procesador de la marca AMD</p>
+            <span class="precio">S/550</span>
+            <button onclick="agregaCarrito('procesador amd', 550)">Agregar producto</button>
+          </div>
+          <div class="producto">
+            <h3>Intel</h3>
+            <p>Procesador de la marca Intel</p>
+            <span class="precio">S/650</span>
+            <button onclick="agregaCarrito('procesador intel', 650)">Agregar producto</button>
+          </div>
         </div>
-      <div class="producto">
-        <h3>Intel</h3>
-        <p>Procesador de la marca Intel</p>
-        <span class="precio">S/650</span>
-        <button onclick="agregaCarrito('procesador intel', 650)">Agregar producto</button>
-      </div>
-      </div>
-      <h1>Tarjeta Grafica</h1>
-      <div class="mini-contenedor">
+
+        <h2>Tarjeta Gráfica</h2>
+        <div class="mini-contenedor">
           <div class="producto">
             <h3>Baja</h3>
-            <p>Tarjeta grafica de gama baja</p>
+            <p>Tarjeta gráfica de gama baja</p>
             <span class="precio">S/200</span>
             <button onclick="agregaCarrito('tarjeta grafica baja', 200)">Agregar producto</button>
           </div>
-        <div class="producto">
-          <h3>Media</h3>
-          <p>Tarjeta grafica de gama media</p>
-          <span class="precio">S/500</span>
-          <button onclick="agregaCarrito('tarjeta grafica media', 500)">Agregar producto</button>
+          <div class="producto">
+            <h3>Media</h3>
+            <p>Tarjeta gráfica de gama media</p>
+            <span class="precio">S/500</span>
+            <button onclick="agregaCarrito('tarjeta grafica media', 500)">Agregar producto</button>
+          </div>
+          <div class="producto destacado">
+            <h3>Alta</h3>
+            <p>Tarjeta gráfica de gama alta</p>
+            <span class="precio">S/800</span>
+            <button onclick="agregaCarrito('tarjeta grafica alta', 800)">Agregar producto</button>
+          </div>
         </div>
-        <div class="producto" style="color: rgb(234, 25, 43);">
-          <h3>Alta</h3>
-          <p>Tarjeta grafica de gama alta</p>
-          <span class="precio">S/800</span>
-          <button onclick="agregaCarrito('tarjeta grafica alta', 800)">Agregar producto</button>
-        </div>
-      </div>
-    </section>
+      </section>
 
       <aside class="carrito">
-        <h2>Carrito de compras</h2>
+        <h2>Panel de Carrito</h2>
         <ul id="elementos-carrito"></ul>
         <div class="carrito-total">
-          <strong>Total a pagar</strong> <span id="precio-total">0</span>
+          <strong>Total a pagar:</strong> <span id="precio-total">0</span>
         </div>
         <button id="boton-comprar" onclick="comprar()">Aprobar pedido</button>
-    
       </aside>
-
     </main>
 
-    <h3>Historia de mi empresa</h3>
-
-    <li></li>
-    
     <footer>
-      <p>Mi empresa se fundo en el año 2020, y desde entonces nos hemos dedicado a la venta de productos de computacion, con el objetivo de brindar a nuestros clientes la mejor experiencia de compra posible.</p> 
+      <p>NOVATEC se fundó en el año 2020. Brindando la mejor experiencia de hardware con tecnología de punta.</p>
     </footer>
 
     <script src="JS/index.js"></script>
   </body>
-  
 </html>
